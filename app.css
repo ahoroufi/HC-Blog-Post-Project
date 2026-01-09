@@ -15,6 +15,7 @@ h1 {
     font-size: 80px;
     font-weight: 400;
     letter-spacing: -1.5px;
+    margin: 0;
 }
 
 h2 {
@@ -82,6 +83,28 @@ code {
     border-left: 2px solid #e95400;
     padding-left: 16px;
     margin: 32px 0 32px 32px;
+}
+
+.hero {
+    background-color: #863ae8;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1, .hero p {
+    width: 75%;
+    max-width: 900px;
+    margin: 16px 0;
+}
+
+.hero hr {
+    width: 50%;
+    margin: 32px 0;
 }
 
 .quote cite {
